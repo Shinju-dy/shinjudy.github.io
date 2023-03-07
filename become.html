@@ -134,7 +134,7 @@
         });
         transcriptid.addEventListener('change', function(){
           if (transcriptid.value){
-            customTxt.innerHTML=transcript-id.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+            customTxt.innerHTML=transcriptid.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
           } else{
             customTxt.innerHTML='No photo chosen';
           }
